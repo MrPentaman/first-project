@@ -40,6 +40,9 @@ body {
     margin-bottom: 80px;
 }
 .placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
     height: 350px;
     border: solid blue;
@@ -117,6 +120,7 @@ h1{
     gap: 40px;
     margin-top: 50px;
 }
+
 .box{
     width: 200px;
     border-color: rgb(0, 80, 253);
@@ -132,7 +136,9 @@ h1{
     align-items: center;
     gap: 40px;
     width: auto;
+    margin-bottom: 50px;
 }
+
 .text{
     width: 200px;
 }
@@ -150,16 +156,76 @@ h1{
     font-family: 'Roboto', sans-serif;
     height: fit-content;
     margin-left: 701px;
-    width: 550px;
+    width: 650px;
     display: flex;
 }
 
 .quote .signature{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     margin-right: 640px;
     height: fit-content;
     display: flex;
     justify-content: flex-end;
+}
 
+.bottom{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 378px;
+}
+.action{
+    background-color: #3882f6;
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 930px;
+    border-radius: 15px;
+}
+
+.action-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f9faf8;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+
+.action-header .paragraph{
+    color: #f9faf8;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+.action-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-button button{
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #f9faf8;
+    height: 30px;
+    width: 110px;
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    height: 80px;
 }
 
 
